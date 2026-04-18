@@ -101,7 +101,7 @@ El archivo CSV debe colocarse en la carpeta `data/` antes de ejecutar los notebo
 
 **1. Clona el repositorio:**
 ```bash
-git clone https://github.com/ctravel-uoc/DARWIN_Alzheimer_Detection
+git clone https://github.com/ctravel-uoc/DARWIN-Alzheimer-Detection
 ```
 
 **2. Instala las dependencias:**
