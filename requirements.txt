@@ -1,0 +1,23 @@
+# DARWIN_Alzheimer_Detection - Requisitos de Python
+
+# 1. Manipulación de datos
+pandas==3.0.1
+numpy==2.4.3
+scipy==1.17.1
+
+# 2. Modelado y Machine Learning
+scikit-learn==1.8.0
+xgboost==3.2.0
+joblib==1.5.3
+
+# 3. Interpretabilidad y Explicabilidad - XAI
+interpret==0.7.8
+shap==0.51.0
+lime==0.2.0.1
+anchor_exp==0.0.2.0
+
+# 4. Visualización
+matplotlib==3.10.8
+seaborn==0.13.2
+plotly==6.6.0
+ipywidgets==8.1.8
