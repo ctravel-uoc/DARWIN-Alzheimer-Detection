@@ -64,7 +64,7 @@ DARWIN_Alzheimer_Detection/
 Exploración clínica del dataset: distribuciones, balance de clases, análisis de fatiga entre tareas y visualización de la "huella clínica" mediante radar. Incluye el preprocesamiento completo: partición estratificada 80/20 y normalización robusta con `RobustScaler`.
 
 **`03_Seleccion_Variables.py` — Fase 3**  
-Script independiente (alta carga computacional). Aplica un filtro de colinealidad de Pearson seguido de selección recursiva con validación cruzada (RFECV), reduciendo las 450 variables originales a 224 biomarcadores relevantes.
+Script independiente (alta carga computacional). Aplica un filtro de colinealidad de Pearson seguido de selección recursiva con validación cruzada (RFECV), reduciendo las 450 variables originales a 224 biomarcadores (espacio intermedio). La reducción final a las 100 variables del protocolo DARWIN-11 se completa en la Fase 4, mediante selección de tareas por relevancia clínica.
 
 **`04_Modelado.ipynb` — Fase 4**  
 Comparativa de cuatro modelos (Random Forest, Extra Trees, XGBoost y EBM) bajo distintos escenarios de reducción del protocolo. Aquí se identifica DARWIN-11 como el punto óptimo y se audita el consumo de memoria con `tracemalloc`.
